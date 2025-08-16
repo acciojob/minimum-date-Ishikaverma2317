@@ -1,5 +1,5 @@
 function minDate(dates) {
-  // Find minimum date string using Math.min on Date objects
+
   let min = dates.reduce((a, b) => (new Date(a) < new Date(b) ? a : b));
   return min;
 }
